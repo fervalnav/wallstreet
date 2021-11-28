@@ -1,0 +1,45 @@
+body {
+    font-family:'Bebas Neue', cursive;
+    margin: 50px 40px 32px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+    font-size: 70px;
+}
+.alcohol-group{
+    position: relative;
+
+}
+
+.list p{
+    display: inline;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+span{
+    position: absolute;
+    right: 200px;
+}
+
+.container {
+    width: 500px;
+    margin: 20px;
+    position: relative;
+}
+
+#minutes, #seconds, #aa {
+    color: white;
+    font-size: 75px;
+}
+
+img {
+    width: 130px;
+    top: 10px
+}

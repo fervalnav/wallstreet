@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ClockWorks</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="ron" class="container">
+            <h1>RON</h1>
+            <div class="list">
+                <p id="barcelo" onclick="add('ron', 'barcelo');">Barceló <span id="pbarcelo"></span></p><br>
+                <p id="brugal" onclick="add('ron', 'brugal');">Brugal  <span id ="pbrugal"></span></p><br>
+                <p id="cacique"  onclick="add('ron', 'cacique');">Cacique <span id="pcacique"></span></p><br>
+                <p id="morgan"  onclick="add('ron', 'morgan');">Capitan Morgan <span id="pmorgan"></span></p><br>
+                <p id="ritual"  onclick="add('ron', 'ritual');">Ritual  <span id="pritual"></span></p><br>
+            </div>
+        </div>
+        <div id="whisky" class="container">
+            <h1>WHISKY</h1>
+            <div class="list">
+                <p id="walker"  onclick="add('whisky', 'walker');">Johnnie Walker <span id="pwalker"></span></p><br>
+                <p id="ballantines" onclick="add('whisky', 'ballantines');">Ballantines  <span id ="pballantines"></span></p><br>
+                <p id="jyb" onclick="add('whisky', 'jyb');">J&B <span id="pjyb"></span></p><br>
+                <p id="cutty" onclick="add('whisky', 'cutty');">Cutty Sark <span id="pcutty"></span></p><br>
+                <p id="dyc" onclick="add('whisky', 'dyc');">DYC  <span id="pdyc"></span></p><br>
+            </div>
+        </div>
+
+        <div id="ginebra" class="container">
+            <h1>GINEBRA</h1>
+            <div class="list">
+                <p id="beefeater" onclick="add('gin', 'beefeater');">Beefeater <span id="pbeefeater"></span></p><br>
+                <p id="larios"  onclick="add('gin', 'larios');">Larios  <span id ="plarios"></span></p><br>
+                <p id="tanqueray"  onclick="add('gin', 'tanqueray');">Tanqueray <span id="ptanqueray"></span></p><br>
+                <p id="bombay"  onclick="add('gin', 'bombay');">Bombay <span id="pbombay"></span></p><br>
+                <p id="bpink"  onclick="add('gin', 'bpink');">Beefeater Pink  <span id="pbpink"></span></p><br>
+                <p id="rives"  onclick="add('gin', 'rives');">Rives  <span id="prives"></span></p><br>
+            </div>
+        </div>
+
+
+
+         <div id="vodka" class="container">
+            <h1>VODKA</h1>
+            <div class="list">
+                <p id="absolut"  onclick="add('vodka', 'absolut');">Absolut <span id="pabsolut"></span></p><br>
+                <p id="smirnoff" onclick="add('vodka', 'smirnoff');">Smirnoff  <span id ="psmirnoff"></span></p><br>
+                <p id="yurinka" onclick="add('vodka', 'yurinka');">Yurinka <span id="pyurinka"></span></p><br>
+                    <img src="ws.png"><p id ="timer"><p id="minutes">5</p><p id="aa">:</p> <p id="seconds">00</p></p>
+            </div>
+        </div>
+        <!-- <section id="controls">
+            <div class="input-group">
+                <label for="minutes-input">Minutos</label>
+                <input type="number" placeholder="0" id="minutes-input" max="300" min="0" >
+            </div>
+
+            <div class="input-group">
+                <label for="seconds-input">Segundos</label>
+                <input type="number" placeholder="0" id="seconds-input" max="59" min="0" step="5">
+            </div>
+
+            <button type="button" id="start-button" onclick="startTimer();">Empezar</button>
+            <button type="button" id="stop-button" onclick="stopTimer();" disabled>Finalizar</button>
+            <button type="button" id="pause-button" onclick="pauseTimer();" disabled>Parar</button>
+        </section>
+
+        <h2><span id="minutes">0</span>: <span id="seconds">00</span></h2> -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>
+        <script src="script.js" type="text/javascript"></script>
+
+
+
+    </body>
+</html>
